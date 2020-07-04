@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/react-scripts start",
+    "dev": "./node_modules/.bin/react-scripts start",
     "server": "./node_modules/.bin/nodemon server",
+    "start": "cross-env NODE_ENV=production node server",
     "build": "./build.sh",
     "test": "./node_modules/.bin/react-scripts test",
     "eject": "./node_modules/.bin/react-scripts eject"
@@ -22,6 +23,7 @@
     "react-scripts": "3.4.1"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "nodemon": "^2.0.4"
   },
   "proxy": "http://localhost:8080",
