@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "./node_modules/.bin/react-scripts start",
-    "server": "./node_modules/.bin/nodemon server",
+    "serve": "./node_modules/.bin/nodemon server",
     "start": "cross-env NODE_ENV=production node server",
     "build": "./build.sh",
     "test": "./node_modules/.bin/react-scripts test",
