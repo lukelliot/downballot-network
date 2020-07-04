@@ -9,7 +9,7 @@ eval "./node_modules/.bin/react-scripts build"
 
 # If server/build dir exists; then remove server/build dir
 if [ -d "./server/build" ]; then
-  echo -e "${CYAN}Destroying ./server/build directory..."
+  echo -e "${CYAN}Removing ./server/build directory..."
   eval "rm -r ./server/build"
   echo -e "${GREEN}Successfully removed ./server/build directory!\n"
 fi
