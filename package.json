@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "./node_modules/.bin/react-scripts start",
-    "serve": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon server.js",
-    "start": "cross-env NODE_ENV=production node server.js",
-    "build": "./node_modules/.bin/react-scripts build",
+    "serve": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon server",
+    "start": "cross-env NODE_ENV=production node server",
+    "build": "./build.sh",
     "test": "./node_modules/.bin/react-scripts test",
     "eject": "./node_modules/.bin/react-scripts eject"
   },
