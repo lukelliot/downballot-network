@@ -4,7 +4,6 @@ const path = require('path')
 const logFormat = require('./server/util/logFormat')
 const { ENVIRONMENT } = require('./server/constants')
 
-
 const port = process.env.PORT || 8080
 const env = process.env.NODE_ENV || ENVIRONMENT.DEVELOPMENT
 
