@@ -4,15 +4,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn start`
+
+Runs the backend server in production.<br/>
+This is called by Heroku for deployments.
+
 ### `yarn serve`
 
-Runs the development backend server at [http://localhost:8080](http://localhost:8080).<br />
+Runs the backend server in development at [http://localhost:8080](http://localhost:8080).<br />
 In development, it is proxied via the `package.json` `proxy` configuration.
 
 
-### `yarn start`
+### `yarn dev`
 
-Runs the app in the development mode.<br />
+Runs the React app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
