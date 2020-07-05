@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn server`
+### `yarn serve`
 
 Runs the development backend server at [http://localhost:8080](http://localhost:8080).<br />
 In development, it is proxied via the `package.json` `proxy` configuration.
