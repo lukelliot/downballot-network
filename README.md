@@ -12,7 +12,8 @@ This is called by Heroku for deployments.
 ### `yarn serve`
 
 Runs the backend server in development at [http://localhost:8080](http://localhost:8080).<br />
-In development, it is proxied via the `package.json` `proxy` configuration.
+In development, it is proxied via the `package.json` `proxy` configuration.<br/>
+Nodemon is used for restarting the browser on saved changes.
 
 
 ### `yarn dev`
